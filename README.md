@@ -1,2 +1,163 @@
 # Open-Settings
 - Configuração vscode
+{
+  "terminal.integrated.fontSize": 14,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Omni",
+  "polacode.backgroundColor": "#6633CC",
+  // "editor.codeActionsOnSave": {
+  //   //"source.fixAll": true
+  //   "source.organizeImports": true
+  // },
+
+  "editor.suggestSelection": "first",
+  "editor.wordBasedSuggestions": true,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.lineHeight": 24,
+  //"terminal.integrated.shell.linux": "/bin/zsh",
+  "editor.fontLigatures": true,
+  "editor.semanticHighlighting.enabled": false,
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "editor.rulers": [80, 120],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+    // "**/node_modules": true
+  },
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json",
+    "*.tsx": "typescriptreact",
+    ".env.*": "dotenv",
+    "*.js": "typescriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "git.enableSmartCommit": true,
+  //"terminal.integrated.shell.osx": "/bin/zsh",
+  "liveshare.featureSet": "insiders",
+  "typescript.tsserver.log": "off",
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "material-icon-theme.activeIconPack": "nest",
+  "screencastMode.onlyKeyboardShortcuts": true,
+  "material-icon-theme.folders.color": "#ff4040",
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "domain": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "providers": "controller",
+    "subscribers": "messages",
+    "useCases": "controller",
+    "kafka": "scripts",
+    "mappers": "meta",
+    "_shared": "shared",
+    "eslint-config": "tools",
+    "kube": "kubernetes",
+    "in-memory": "mock"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d",
+    "*.webpack.js": "webpack",
+    "*.routes.ts": "routing",
+    "babel.config.ts": "babel"
+  },
+  "javascript.validate.enable": true /*Voltar aqui depois e habilitar ou tirar*/,
+  "material-icon-theme.languages.associations": {
+    "dotenv": "tune"
+  },
+  "window.menuBarVisibility": "visible",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "tabnine.experimentalAutoImports": true,
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!go",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!java",
+    "!latex",
+    "!php",
+    "!pug",
+    "!python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!scss"
+  ],
+  "cSpell.ignoreRegExpList": ["typeorm", "tsyringe"],
+  "cSpell.language": "en,pt",
+  "codesnap.backgroundColor": "transparent",
+  "codesnap.transparentBackground": true,
+  "codesnap.boxShadow": "0 0 0",
+  "liveServer.settings.donotVerifyTags": true,
+  "debug.javascript.terminalOptions": {
+    "skipFiles": ["<node_internals>/**"]
+  },
+  "cSpell.userWords": [
+    "chakra",
+    "middlewares",
+    "prefetch",
+    "rocketseat",
+    "upsert"
+  ],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.productIconTheme": "fluent-icons",
+  "terminal.integrated.showExitAlert": false,
+  "splitHTMLAttributes.closingBracketOnNewLine": true,
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "debug.allowBreakpointsEverywhere": true,
+  "debug.showInlineBreakpointCandidates": false,
+  "bracketPairColorizer.depreciation-notice": false
+}
