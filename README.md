@@ -1,0 +1,2 @@
+# Open-Settings
+- Configuração vscode
